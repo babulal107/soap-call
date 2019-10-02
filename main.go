@@ -162,7 +162,7 @@ func GetIecData(customerTenderId string) (iecDataResponse soapResponse, err erro
 
 	// Call SOAP service
 	response, err = soapCall(
-		"https://ibluatapig.indusind.com/app/uat/IBLeTender?client_id=0543be46-d6c0-4e16-bae8-f62cee0db184&client_secret=nB1yN4wP0tA8vG5oH6iL6uC4lE7bJ4dI7oI6jQ8rJ8lQ1yB1nB",
+		"https://ibluatapig.indusind.com/app/uat/IBLeTender",
 		"http://tempuri.org/IIBLeTender/GetIecData",
 		payload,
 	)
